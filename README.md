@@ -8,7 +8,7 @@ Passionate about artificial intelligence and data, with a strong foundation in m
 
 ---
 
-## 🧰 Tech Skills
+## Tech Skills
 
 **Languages:** Python · C · Java · SQL · LaTeX  
 **Libraries & Frameworks:** PyTorch · Scikit-Learn · Pandas · NumPy · SciPy · Matplotlib · RapidFuzz · PySpark  
@@ -18,7 +18,7 @@ Passionate about artificial intelligence and data, with a strong foundation in m
 
 ---
 
-## 🎓 Education
+## Education
 
 **Universidad de San Andrés (UdeSA)** — Buenos Aires, Argentina  
 B.Eng. in Artificial Intelligence Engineering · **GPA: 9.64/10** · 2022 – Present
@@ -49,7 +49,7 @@ B.Eng. in Artificial Intelligence Engineering · **GPA: 9.64/10** · 2022 – Pr
 
 ---
 
-## 🧪 Projects
+## Projects
 
 ### 🦌 Wildlife Monitoring with Computer Vision
 `YOLOv8` `CNNs` `Deep Learning` `RGB + Thermal Fusion` · Oct 2025 – Dec 2025
@@ -79,19 +79,19 @@ B.Eng. in Artificial Intelligence Engineering · **GPA: 9.64/10** · 2022 – Pr
 
 ---
 
-## 🏅 Achievements
+## Achievements
 
-- 🧠 **Mensa Argentina** — Admitted after passing the in-person admission test (top 2% IQ worldwide).
-- 🏆 **Banco Santander Argentina Merit Award 2025** — Selected among the top 200 university GPAs nationwide.
-- 🎤 **SCIAA Speaker** (2024 & 2025) — Admitted to present AI research at the Scientific Symposium on AI and Applications.
-- 💻 **ICPC Regional Finalist** (2024 & 2025) — Qualified for the Latin American Regional of the International Collegiate Programming Contest.
-- 📝 **ITBA Recognition** (2022) — For an academic essay on AI, Big Data, and environmental sustainability.
-- 🥇 **National Debate Champion & Best Speaker** (2022) — Certified by the Argentine Debate Association.
-- 🧮 **National Math Champion — ACOBI** (2016 & 2017).
+- **Mensa Argentina** — Admitted after passing the in-person admission test (top 2% IQ worldwide).
+- **Banco Santander Argentina Merit Award 2025** — Selected among the top 200 university GPAs nationwide.
+- **SCIAA Speaker** (2024 & 2025) — Admitted to present AI research at the Scientific Symposium on AI and Applications.
+- **ICPC Regional Finalist** (2024 & 2025) — Qualified for the Latin American Regional of the International Collegiate Programming Contest.
+- **ITBA Recognition** (2022) — For an academic essay on AI, Big Data, and environmental sustainability.
+- **National Debate Champion & Best Speaker** (2022) — Certified by the Argentine Debate Association.
+- **National Math Champion — ACOBI** (2016 & 2017).
 
 ---
 
-## 🌎 Languages
+## Languages
 
 - 🇪🇸 Spanish — Native
 - 🇬🇧 English — Proficient
