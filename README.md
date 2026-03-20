@@ -1,6 +1,6 @@
 # Micol Michanie
 
-**AI Engineering Student · AI Lead @ Rappi · Mensa Member**
+**AI Engineering Student · AI Lead @ Rappi**
 
 Buenos Aires, Argentina · [micolmichanie@gmail.com](mailto:micolmichanie@gmail.com) · [LinkedIn](https://www.linkedin.com/in/micol-michanie-2556bb23a/)
 
@@ -63,6 +63,19 @@ B.Eng. in Artificial Intelligence Engineering · **GPA: 9.64/10** · 2022 – Pr
 - Implemented a multi-criteria fitness function (flow, queues, stops) evaluated over temporal windows.
 - Optimized configuration improved average speed by **+22%** and reduced stops by **-35%**.
 - **Accepted for presentation** at the Scientific Symposium on AI and Applications (SCIAA), July 2025.
+
+### 🚗 SUV Price Prediction on Mercado Libre
+`Machine Learning` `Data Analysis` `XGBoost` `RapidFuzz` `Scikit-Learn` · May 2025 – Jul 2025
+- Developed an end-to-end regression pipeline in Python to predict SUV listing prices on Mercado Libre from +18k real publications.
+- Extensive data cleaning and feature engineering: regex-based extraction, token_sort_ratio matching with RapidFuzz, currency conversion, and one-hot encoding of categorical fields.
+- Trained and tuned multiple models including Ridge & Lasso Regression, Random Forest, and XGBoost with Randomized Grid Search and 5-fold cross-validation.
+- XGBoost model achieved a test **R² of 0.94**, demonstrating strong predictive performance.
+
+### 🎮 Superhuman AI for Board Games — Gomoku Agent
+`Python` `MiniMax` `Alpha-Beta Pruning` `Monte Carlo Search Trees` · Jul 2024 – Nov 2024
+- Developed an intelligent Gomoku-playing agent using MiniMax as the core strategy, with optimizations such as Alpha-Beta pruning, Quiescence search, Late move reduction, and Move ordering.
+- Analyzed Monte Carlo Search Trees approach as an alternative strategy.
+- **Presented and pitched** at the Scientific Symposium on AI and Applications (SCIAA) 2024.
 
 ---
 
