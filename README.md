@@ -1,0 +1,84 @@
+# Micol Michanie
+
+**AI Engineering Student · AI Lead @ Rappi · Mensa Member**
+
+Buenos Aires, Argentina · [micolmichanie@gmail.com](mailto:micolmichanie@gmail.com) · [LinkedIn](https://www.linkedin.com/in/micol-michanie-2556bb23a/)
+
+Passionate about artificial intelligence and data, with a strong foundation in mathematics and logic. I don't just understand complex technical concepts — I turn them into clear, valuable ideas. Through code, I automate processes and drive real-world impact with AI-powered solutions. Always curious, always learning.
+
+---
+
+## 🧰 Tech Skills
+
+**Languages:** Python · C · Java · SQL · LaTeX  
+**Libraries & Frameworks:** PyTorch · Scikit-Learn · Pandas · NumPy · SciPy · Matplotlib · RapidFuzz · PySpark  
+**Computer Vision:** Ultralytics YOLOv8 · YOLOv11 · OpenCV  
+**Databases:** MongoDB · Neo4j  
+**Domains:** Machine Learning · Deep Learning · Computer Vision · LLMs & Transformers · VAEs · Reinforcement Learning
+
+---
+
+## 🎓 Education
+
+**Universidad de San Andrés (UdeSA)** — Buenos Aires, Argentina  
+B.Eng. in Artificial Intelligence Engineering · **GPA: 9.64/10** · 2022 – Present
+
+- **Teaching Assistant** — *Algorithms & Data Structures* and *System Dynamics*: prepared materials, led exercises, and tutored students.
+- **Relevant coursework:** LLMs & Transformers, Deep Learning & NNs, Computational Algebra, Machine Learning, VAEs, Graph Theory, Applied Statistics, Clustering Algorithms, Tree-based Models, and more.
+
+---
+
+## 🧭 Experience
+
+### Rappi — Remote
+**AI Lead** · Oct 2025 – Present
+- Lead a team of 4 in designing and deploying AI & automation solutions for the Payments vertical, aligning technical goals with direct impact on operational efficiency and decision-making.
+- Define the technical roadmap, prioritize initiatives, and oversee end-to-end execution of data & ML projects, collaborating cross-functionally with Product, Operations, and Analytics.
+- Participate in hiring processes: design technical assessments, interview candidates, and mentor the team promoting best practices, autonomy, and professional growth.
+
+### Secretaría de Innovación, Municipality of San Nicolás — Argentina
+**AI Engineer & Consultant** · Dec 2024 – Present
+- Identified and assessed municipal operations to detect improvement opportunities through AI-based solutions.
+- Designed and deployed ML models that reduced manual data-labeling time by over **90%**.
+- Provided consulting on optimization problems using Reinforcement Learning and algorithmic approaches, reducing citizen wait times by over **40%**.
+
+### MSD (Merck Sharp & Dohme) — Argentina
+**Data Intern** · Jan 2025 – Sept 2025
+- Built automated data validation pipelines with Pandas, achieving a **+50%** increase in operational efficiency.
+- Implemented an automated database-matching solution with Python & RapidFuzz, boosting efficiency by **+75%** on previously manual tasks.
+
+---
+
+## 🧪 Projects
+
+### 🦌 Wildlife Monitoring with Computer Vision
+`YOLOv8` `CNNs` `Deep Learning` `RGB + Thermal Fusion` · Oct 2025 – Dec 2025
+- Developed a system that detects and counts animals from drone imagery automatically, even under low-light conditions or camouflage.
+- Implemented detection models with RGB + thermal fusion (YOLOv8) to improve performance in adverse scenarios.
+- Re-labeled the dataset (assisted with YOLOv11) to fix missing annotations and evaluate model performance more reliably.
+
+### 🚦 Intelligent Traffic Light Optimization
+`Computer Vision` `Generative Models` `Local Search` `SUMO` · Dec 2024 – Sept 2025
+- Built a traffic light optimization system using Simulated Annealing and Python simulation with SUMO, leveraging real-world data processed with YOLOv8. Case study: Av. Savio, San Nicolás de los Arroyos.
+- Implemented a multi-criteria fitness function (flow, queues, stops) evaluated over temporal windows.
+- Optimized configuration improved average speed by **+22%** and reduced stops by **-35%**.
+- **Accepted for presentation** at the Scientific Symposium on AI and Applications (SCIAA), July 2025.
+
+---
+
+## 🏅 Achievements
+
+- 🧠 **Mensa Argentina** — Admitted after passing the in-person admission test (top 2% IQ worldwide).
+- 🏆 **Banco Santander Argentina Merit Award 2025** — Selected among the top 200 university GPAs nationwide.
+- 🎤 **SCIAA Speaker** (2024 & 2025) — Admitted to present AI research at the Scientific Symposium on AI and Applications.
+- 💻 **ICPC Regional Finalist** (2024 & 2025) — Qualified for the Latin American Regional of the International Collegiate Programming Contest.
+- 📝 **ITBA Recognition** (2022) — For an academic essay on AI, Big Data, and environmental sustainability.
+- 🥇 **National Debate Champion & Best Speaker** (2022) — Certified by the Argentine Debate Association.
+- 🧮 **National Math Champion — ACOBI** (2016 & 2017).
+
+---
+
+## 🌎 Languages
+
+- 🇪🇸 Spanish — Native
+- 🇬🇧 English — Proficient
