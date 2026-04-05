@@ -21,7 +21,7 @@ Passionate about artificial intelligence and data, with a strong foundation in m
 ## Education
 
 **Universidad de San Andrés (UdeSA)** — Buenos Aires, Argentina  
-B.Eng. in Artificial Intelligence Engineering · **GPA: 9.64/10** · 2022 – Present
+B.Eng. in Artificial Intelligence Engineering · **GPA: 9.64/10** · Mar 2023 – Present
 
 - **Teaching Assistant** — *Algorithms & Data Structures* and *System Dynamics*: prepared materials, led exercises, and tutored students.
 - **Relevant coursework:** LLMs & Transformers, Deep Learning & NNs, Computational Algebra, Machine Learning, VAEs, Graph Theory, Applied Statistics, Clustering Algorithms, Tree-based Models, and more.
@@ -30,19 +30,19 @@ B.Eng. in Artificial Intelligence Engineering · **GPA: 9.64/10** · 2022 – Pr
 
 ## 🧭 Experience
 
-### Rappi — Remote
+### Rappi — Argentina (Remote)
 **AI Lead** · Oct 2025 – Present
 - Lead a team of 4 in designing and deploying AI & automation solutions for the Payments vertical, aligning technical goals with direct impact on operational efficiency and decision-making.
 - Define the technical roadmap, prioritize initiatives, and oversee end-to-end execution of data & ML projects, collaborating cross-functionally with Product, Operations, and Analytics.
 - Participate in hiring processes: design technical assessments, interview candidates, and mentor the team promoting best practices, autonomy, and professional growth.
 
-### Secretaría de Innovación, Municipality of San Nicolás — Argentina
+### Secretaría de Innovación, Municipality of San Nicolás — Argentina (Remote)
 **AI Engineer & Consultant** · Dec 2024 – Present
 - Identified and assessed municipal operations to detect improvement opportunities through AI-based solutions.
 - Designed and deployed ML models that reduced manual data-labeling time by over **90%**.
 - Provided consulting on optimization problems using Reinforcement Learning and algorithmic approaches, reducing citizen wait times by over **40%**.
 
-### MSD (Merck Sharp & Dohme) — Argentina
+### MSD (Merck Sharp & Dohme) — Argentina (Hybrid)
 **Data Intern** · Jan 2025 – Sept 2025
 - Built automated data validation pipelines with Pandas, achieving a **+50%** increase in operational efficiency.
 - Implemented an automated database-matching solution with Python & RapidFuzz, boosting efficiency by **+75%** on previously manual tasks.
@@ -52,7 +52,7 @@ B.Eng. in Artificial Intelligence Engineering · **GPA: 9.64/10** · 2022 – Pr
 ## Projects
 
 ### 🧠 Unsupervised DDoS Detection with Neural ODEs                                        
-`PyTorch` `Neural ODEs` `Autoencoders` `Anomaly Detection` `Time Series` · Mar 2025 – Present                                                                              
+`PyTorch` `Neural ODEs` `Autoencoders` `Anomaly Detection` `Time Series` · Mar 2026 – Present                                                                              
 - Designed a Neural ODE Autoencoder for unsupervised network intrusion detection on the CSE-CIC-IDS2018 dataset (~16M flows, 14 attack types).                   
 - Architecture: BiGRU encoder → 16-dim latent space → Neural ODE (dopri5 solver) → MLP decoder, with kinetic energy regularization for smooth ODE dynamics.      
 - Implemented feature-weighted anomaly scoring using inverse-variance weighting to prevent signal cancellation across 49 network features.                       
