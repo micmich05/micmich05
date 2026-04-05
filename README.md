@@ -56,8 +56,7 @@ B.Eng. in Artificial Intelligence Engineering · **GPA: 9.64/10** · Mar 2023 �
 - Designed a Neural ODE Autoencoder for unsupervised network intrusion detection on the CSE-CIC-IDS2018 dataset (~16M flows, 14 attack types).                   
 - Architecture: BiGRU encoder → 16-dim latent space → Neural ODE (dopri5 solver) → MLP decoder, with kinetic energy regularization for smooth ODE dynamics.      
 - Implemented feature-weighted anomaly scoring using inverse-variance weighting to prevent signal cancellation across 49 network features.                       
-- Built a full ML pipeline: preprocessing (log1p + RobustScaler + clipping), windowed sequence construction, training with early stopping, and per-attack-type   
-  evaluation.
+- Built a full ML pipeline: preprocessing (log1p + RobustScaler + clipping), windowed sequence construction, training with early stopping, and per-attack-type evaluation.
 
 ### 🦌 Wildlife Monitoring with Computer Vision
 `YOLOv8` `CNNs` `Deep Learning` `RGB + Thermal Fusion` · Oct 2025 – Dec 2025
