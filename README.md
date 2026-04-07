@@ -32,7 +32,7 @@ B.Eng. in Artificial Intelligence Engineering · **GPA: 9.64/10** · Mar 2023 �
 
 ### Rappi — Argentina (Remote)
 **AI Lead** · Oct 2025 – Present
-- Lead a team of 4 in designing and deploying AI & automation solutions for the Payments vertical, aligning technical goals with direct impact on operational efficiency and decision-making.
+- Lead a team in designing and deploying AI & automation solutions for the Payments vertical, aligning technical goals with direct impact on operational efficiency and decision-making.
 - Define the technical roadmap, prioritize initiatives, and oversee end-to-end execution of data & ML projects, collaborating cross-functionally with Product, Operations, and Analytics.
 - Participate in hiring processes: design technical assessments, interview candidates, and mentor the team promoting best practices, autonomy, and professional growth.
 
