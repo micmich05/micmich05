@@ -37,7 +37,7 @@ B.Eng. in Artificial Intelligence Engineering · **GPA: 9.64/10** · Mar 2023 �
 - Participate in hiring processes: design technical assessments, interview candidates, and mentor the team promoting best practices, autonomy, and professional growth.
 
 ### Secretaría de Innovación, Municipality of San Nicolás — Argentina (Remote)
-**AI Engineer & Consultant** · Dec 2024 – Present
+**AI Engineer & Consultant** · Dec 2024 – Apr 2026
 - Identified and assessed municipal operations to detect improvement opportunities through AI-based solutions.
 - Designed and deployed ML models that reduced manual data-labeling time by over **90%**.
 - Provided consulting on optimization problems using Reinforcement Learning and algorithmic approaches, reducing citizen wait times by over **40%**.
