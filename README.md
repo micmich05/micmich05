@@ -21,7 +21,7 @@ Passionate about artificial intelligence and data, with a strong foundation in m
 ## Education
 
 **Universidad de San Andrés (UdeSA)** — Buenos Aires, Argentina  
-B.Eng. in Artificial Intelligence Engineering · **GPA: 9.64/10** · Mar 2023 – Present
+B.Eng. in Artificial Intelligence Engineering · **GPA: 9.66/10** · Mar 2023 – Present
 
 - **Teaching Assistant** — *Algorithms & Data Structures* and *System Dynamics*: prepared materials, led exercises, and tutored students.
 - **Relevant coursework:** LLMs & Transformers, Deep Learning & NNs, Computational Algebra, Machine Learning, VAEs, Graph Theory, Applied Statistics, Clustering Algorithms, Tree-based Models, and more.
