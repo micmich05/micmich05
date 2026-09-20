@@ -1,97 +1,68 @@
 # Micol Michanie
 
-**AI Engineering Student · AI Lead @ Rappi**
+AI Engineering @ Universidad de San Andrés · AI Lead @ Rappi Payments
 
 Buenos Aires, Argentina · [micolmichanie@gmail.com](mailto:micolmichanie@gmail.com) · [LinkedIn](https://www.linkedin.com/in/micol-michanie-2556bb23a/)
 
-Passionate about artificial intelligence and data, with a strong foundation in mathematics and logic. I don't just understand complex technical concepts — I turn them into clear, valuable ideas. Through code, I automate processes and drive real-world impact with AI-powered solutions. Always curious, always learning.
+I lead a 6-person AI team in Rappi's Payments vertical. We build ML models, agent pipelines and process automation for payins, refunds, reconciliation and treasury across 9 countries in Latin America. I own the technical roadmap, run execution alongside Product and Operations, and handle hiring and mentoring for the team.
 
----
-
-## Tech Skills
-
-**Languages:** Python · C · Java · SQL · LaTeX  
-**Libraries & Frameworks:** PyTorch · Scikit-Learn · Pandas · NumPy · SciPy · Matplotlib · RapidFuzz · PySpark  
-**Computer Vision:** Ultralytics YOLOv8 · YOLOv11 · OpenCV  
-**Databases:** MongoDB · Neo4j  
-**Domains:** Machine Learning · Deep Learning · Computer Vision · LLMs & Transformers · VAEs · Reinforcement Learning
-
----
-
-## Education
-
-**Universidad de San Andrés (UdeSA)** — Buenos Aires, Argentina  
-B.Eng. in Artificial Intelligence Engineering · **GPA: 9.66/10** · Mar 2023 – Present
-
-- **Teaching Assistant** — *Algorithms & Data Structures* and *System Dynamics*: prepared materials, led exercises, and tutored students.
-- **Relevant coursework:** LLMs & Transformers, Deep Learning & NNs, Computational Algebra, Machine Learning, VAEs, Graph Theory, Applied Statistics, Clustering Algorithms, Tree-based Models, and more.
-
----
-
-## 🧭 Experience
-
-### Rappi — Argentina (Remote)
-**AI Lead** · Oct 2025 – Present
-- Lead a team in designing and deploying AI & automation solutions for the Payments vertical, aligning technical goals with direct impact on operational efficiency and decision-making.
-- Define the technical roadmap, prioritize initiatives, and oversee end-to-end execution of data & ML projects, collaborating cross-functionally with Product, Operations, and Analytics.
-- Participate in hiring processes: design technical assessments, interview candidates, and mentor the team promoting best practices, autonomy, and professional growth.
-
-### Secretaría de Innovación, Municipality of San Nicolás — Argentina (Remote)
-**AI Engineer & Consultant** · Dec 2024 – Apr 2026
-- Identified and assessed municipal operations to detect improvement opportunities through AI-based solutions.
-- Designed and deployed ML models that reduced manual data-labeling time by over **90%**.
-- Provided consulting on optimization problems using Reinforcement Learning and algorithmic approaches, reducing citizen wait times by over **40%**.
-
-### MSD (Merck Sharp & Dohme) — Argentina (Hybrid)
-**Data Intern** · Jan 2025 – Sept 2025
-- Built automated data validation pipelines with Pandas, achieving a **+50%** increase in operational efficiency.
-- Implemented an automated database-matching solution with Python & RapidFuzz, boosting efficiency by **+75%** on previously manual tasks.
-
----
+Before Rappi I built AI systems for the Municipality of San Nicolás and data automation at MSD. I'm finishing a B.Eng. in AI Engineering and I TA Algorithms & Data Structures.
 
 ## Projects
 
-### 🦌 Wildlife Monitoring with Computer Vision
-`YOLOv8` `CNNs` `Deep Learning` `RGB + Thermal Fusion` · Oct 2025 – Dec 2025
-- Developed a system that detects and counts animals from drone imagery automatically, even under low-light conditions or camouflage.
-- Implemented detection models with RGB + thermal fusion (YOLOv8) to improve performance in adverse scenarios.
-- Re-labeled the dataset (assisted with YOLOv11) to fix missing annotations and evaluate model performance more reliably.
+**Traffic signal optimization** · SUMO, simulated annealing, YOLOv8 · [repo](#)
 
-### 🚦 Intelligent Traffic Light Optimization
-`Computer Vision` `Generative Models` `Local Search` `SUMO` · Dec 2024 – Sept 2025
-- Built a traffic light optimization system using Simulated Annealing and Python simulation with SUMO, leveraging real-world data processed with YOLOv8. Case study: Av. Savio, San Nicolás de los Arroyos.
-- Implemented a multi-criteria fitness function (flow, queues, stops) evaluated over temporal windows.
-- Optimized configuration improved average speed by **+22%** and reduced stops by **-35%**.
-- **Accepted for presentation** at the Scientific Symposium on AI and Applications (SCIAA), July 2025.
+Signal timing optimizer for Av. Savio in San Nicolás, built on real traffic footage processed with YOLOv8 and a multi-criteria fitness function (flow, queue length, stops) evaluated over time windows. The resulting configuration raised average speed by 22% and cut stops by 35%. Adopted by the municipality, covered by Diario El Norte and Ramallo Informa, presented at SCIAA 2025.
 
-### 🚗 SUV Price Prediction on Mercado Libre
-`Machine Learning` `Data Analysis` `XGBoost` `RapidFuzz` `Scikit-Learn` · May 2025 – Jul 2025
-- Developed an end-to-end regression pipeline in Python to predict SUV listing prices on Mercado Libre from +18k real publications.
-- Extensive data cleaning and feature engineering: regex-based extraction, token_sort_ratio matching with RapidFuzz, currency conversion, and one-hot encoding of categorical fields.
-- Trained and tuned multiple models including Ridge & Lasso Regression, Random Forest, and XGBoost with Randomized Grid Search and 5-fold cross-validation.
-- XGBoost model achieved a test **R² of 0.94**, demonstrating strong predictive performance.
+**Wildlife monitoring from drone imagery** · YOLOv8, RGB + thermal fusion · [repo](#)
 
-### 🎮 Superhuman AI for Board Games — Gomoku Agent
-`Python` `MiniMax` `Alpha-Beta Pruning` `Monte Carlo Search Trees` · Jul 2024 – Nov 2024
-- Developed an intelligent Gomoku-playing agent using MiniMax as the core strategy, with optimizations such as Alpha-Beta pruning, Quiescence search, Late move reduction, and Move ordering.
-- Analyzed Monte Carlo Search Trees approach as an alternative strategy.
-- **Presented and pitched** at the Scientific Symposium on AI and Applications (SCIAA) 2024.
+Detection and counting of animals in drone footage under low light and partial occlusion. Fused RGB and thermal streams to hold up in adverse conditions, and relabeled the dataset (assisted with YOLOv11) to fix missing annotations before evaluating.
 
----
+**SUV price prediction on Mercado Libre** · XGBoost, scikit-learn, RapidFuzz · [repo](#)
 
-## Achievements
+End-to-end regression pipeline over 18k+ real listings. Regex extraction, fuzzy token matching on model names, currency normalization and one-hot encoding, then Ridge, Lasso, Random Forest and XGBoost tuned with randomized search and 5-fold CV. Best model reached R² 0.94 on the test set.
 
-- **Mensa Argentina** — Admitted after passing the in-person admission test (top 2% IQ worldwide).
-- **Banco Santander Argentina Merit Award 2025** — Selected among the top 200 university GPAs nationwide.
-- **SCIAA Speaker** (2024 & 2025) — Admitted to present AI research at the Scientific Symposium on AI and Applications.
-- **ICPC Regional Finalist** (2024 & 2025) — Qualified for the Latin American Regional of the International Collegiate Programming Contest.
-- **ITBA Recognition** (2022) — For an academic essay on AI, Big Data, and environmental sustainability.
-- **National Debate Champion & Best Speaker** (2022) — Certified by the Argentine Debate Association.
-- **National Math Champion — ACOBI** (2016 & 2017).
+**Gomoku engine** · minimax, alpha-beta pruning, MCTS · [repo](#)
 
----
+Game-playing agent built on minimax with alpha-beta pruning, quiescence search, late move reduction and move ordering, benchmarked against a Monte Carlo tree search approach. Presented at SCIAA 2024.
 
-## Languages
+## Experience
 
-- 🇪🇸 Spanish — Native
-- 🇬🇧 English — Proficient
+**AI Lead, Rappi** · Oct 2025 – Present
+
+Team leadership, technical roadmap and end-to-end delivery of data and ML projects for the Payments vertical. Design technical assessments and interview candidates.
+
+**AI Engineer & Consultant, Secretaría de Innovación, Municipality of San Nicolás** · Dec 2024 – Present
+
+ML models that cut manual data labeling time by over 90%. Optimization work using reinforcement learning and search methods, reducing citizen wait times by over 40%.
+
+**Business Data Analyst, MSD (Merck Sharp & Dohme)** · Jan 2025 – Sep 2025
+
+Automated validation pipelines in Pandas and a fuzzy database-matching solution with RapidFuzz, replacing manual review on both.
+
+## Stack
+
+Python, C, Java, SQL, LaTeX
+PyTorch, scikit-learn, Pandas, PySpark
+Ultralytics YOLOv8/v11, OpenCV
+FastAPI, Docker, Airflow, n8n, CI/CD
+MongoDB, Neo4j
+
+## Education
+
+**B.Eng. in Artificial Intelligence Engineering**, Universidad de San Andrés · Mar 2023 – Present · GPA 9.66/10
+
+Teaching assistant for Algorithms & Data Structures and Systems Dynamics: material preparation, exercise sessions and tutoring.
+
+## Recognition
+
+- AlixPartners Data Challenge, Special Recognition as first participant to reach the optimal solution, worth an estimated $21.2M in annual savings (2026)
+- BCG ASPIRE, selected for Boston Consulting Group's international program for high-potential women (2026)
+- Mensa Argentina, admitted after the in-person exam (2026)
+- Banco Santander Argentina Merit Award, top 200 university GPAs nationwide (2025)
+- ICPC Latin American Regional finalist (2024, 2025)
+- SCIAA speaker (2024, 2025)
+- National Champion and Best Speaker, Argentine Debate Association (2022)
+- National Champion, ACOBI Mathematics Competition (2016, 2017)
+
+Spanish (native), English (professional)
