@@ -104,10 +104,15 @@ First place nationally in consecutive editions.
 ## Stack
 
 **Languages** Python · C · Java · SQL · LaTeX
+
 **ML** PyTorch · scikit-learn · XGBoost · Pandas · NumPy · SciPy
+
 **Optimization** OR-Tools CP-SAT · MILP · local search · reinforcement learning
+
 **Computer vision** Ultralytics YOLOv8 · YOLOv11 · OpenCV
+
 **Data & infra** PySpark · Airflow · FastAPI · Docker · n8n · CI/CD · MLOps
+
 **Databases** MongoDB · Neo4j
 
 Spanish (native) · English (professional)
