@@ -1,6 +1,6 @@
 # Micol Michanie
 
-AI Engineering @ Universidad de San Andrés · AI Lead @ Rappi Payments
+AI Engineering @ Universidad de San Andrés · AI Lead @ Rappi 
 
 Buenos Aires, Argentina · [micolmichanie@gmail.com](mailto:micolmichanie@gmail.com) · [LinkedIn](https://www.linkedin.com/in/micol-michanie-2556bb23a/)
 
