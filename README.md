@@ -10,19 +10,19 @@ Before Rappi I built AI systems for the Municipality of San Nicolás and data au
 
 ## Projects
 
-**Traffic signal optimization** · SUMO, simulated annealing, YOLOv8 · [repo](#)
+**Traffic signal optimization** · SUMO, simulated annealing, YOLOv8 
 
 Signal timing optimizer for Av. Savio in San Nicolás, built on real traffic footage processed with YOLOv8 and a multi-criteria fitness function (flow, queue length, stops) evaluated over time windows. The resulting configuration raised average speed by 22% and cut stops by 35%. Adopted by the municipality, covered by Diario El Norte and Ramallo Informa, presented at SCIAA 2025.
 
-**Wildlife monitoring from drone imagery** · YOLOv8, RGB + thermal fusion · [repo](#)
+**Wildlife monitoring from drone imagery** · YOLOv8, RGB + thermal fusion 
 
 Detection and counting of animals in drone footage under low light and partial occlusion. Fused RGB and thermal streams to hold up in adverse conditions, and relabeled the dataset (assisted with YOLOv11) to fix missing annotations before evaluating.
 
-**SUV price prediction on Mercado Libre** · XGBoost, scikit-learn, RapidFuzz · [repo](#)
+**SUV price prediction on Mercado Libre** · XGBoost, scikit-learn, RapidFuzz 
 
 End-to-end regression pipeline over 18k+ real listings. Regex extraction, fuzzy token matching on model names, currency normalization and one-hot encoding, then Ridge, Lasso, Random Forest and XGBoost tuned with randomized search and 5-fold CV. Best model reached R² 0.94 on the test set.
 
-**Gomoku engine** · minimax, alpha-beta pruning, MCTS · [repo](#)
+**Gomoku engine** · minimax, alpha-beta pruning, MCTS 
 
 Game-playing agent built on minimax with alpha-beta pruning, quiescence search, late move reduction and move ordering, benchmarked against a Monte Carlo tree search approach. Presented at SCIAA 2024.
 
