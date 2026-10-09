@@ -1,118 +1,116 @@
 # Micol Michanie
 
-AI Engineering @ Universidad de San Andrés · AI Lead @ Rappi 
+**AI Engineer & Technical Lead** · Machine Learning · Mathematical Optimization · Applied AI
 
-Buenos Aires, Argentina · [micolmichanie@gmail.com](mailto:micolmichanie@gmail.com) · [LinkedIn](https://www.linkedin.com/in/micol-michanie-2556bb23a/)
+**AI Lead, Payments @ Rappi** · **B.Eng. in AI Engineering @ Universidad de San Andrés**
 
-I lead a team of six inside Rappi's Payments vertical. We build ML models, agent pipelines and process automation for payins, refunds, reconciliation and treasury across 9 countries in Latin America. I own the technical roadmap, run execution alongside Product and Operations, and handle hiring and mentoring for the team.
+[LinkedIn](https://www.linkedin.com/in/micol-michanie-2556bb23a/) · [Email](mailto:micolmichanie@gmail.com) · [GitHub](https://github.com/micmich05)
 
-Before Rappi I built AI systems for the Municipality of San Nicolás and data automation at MSD. I'm finishing a B.Eng. in AI Engineering and I TA Algorithms & Data Structures.
+I lead a six-person AI team in Rappi's Payments organization, building machine learning systems, AI agents, and process automation across nine Latin American countries. My work sits at the intersection of **engineering, mathematical reasoning, and real operational problems**—from deploying ML systems to solving constrained optimization problems.
 
-## Projects
+Alongside industry work, I'm interested in **representation learning, dynamical systems, and the mathematical foundations of machine learning**. I have presented technical projects at **SCIAA in 2024 and 2025** and regularly speak about applied AI to academic and industry audiences.
 
-### Redesigning a 204 box packaging catalog with a provably optimal solver
-`OR-Tools CP-SAT` `MILP` `combinatorial optimization` `Python` · 2026
-**[github.com/micmich05/bonsai-packaging-optimization](https://github.com/micmich05/bonsai-packaging-optimization)**
+---
 
-Bonsai Corp ships 427 products across 5 plants in 204 box types. The task, set by the AlixPartners Data Challenge, was to redesign that catalog to minimize annual packaging and freight cost under containment, dimensional fit, headspace, compression resistance and pallet stacking constraints.
+## Featured work
 
-Cost depends on box dimensions only through integer counts of boxes per pallet, so the continuous design space collapses. Enumerating exterior dimensions at the pallet thresholds and at each product's fit bounds yields 4,558 candidate boxes and 145,469 admissible pairings of product and box, with no loss of optimality. On that space a MILP with linearized volume discount tiers solves in exact integer arithmetic with CP-SAT, which returns the assignment and the lower bound that certifies it.
+### [Bonsai · Certified near-optimal packaging optimization](https://github.com/micmich05/bonsai-packaging-optimization)
+**Mathematical optimization · OR-Tools CP-SAT · MILP · Python** | AlixPartners Data Challenge 2026
 
-The proposed catalog of 55 box types on 14 base footprints costs USD 188.1M against USD 209.2M today, an annual saving of USD 21.2M or 10.1%. A proven lower bound of USD 188.05M puts the remaining gap at 0.018%. Pallet occupancy rises from 82.2% to 93.8%, shipped pallets drop by 119k per year, and inventory positions fall from 430 to 158.
+Redesigned a packaging catalog for **427 products across five plants**, jointly optimizing box dimensions, product assignments, freight, and volume discounts under physical and logistical constraints. Reduced the search to a finite candidate space without excluding an optimum, then solved the resulting integer optimization problem with CP-SAT.
 
-The repo ships the frozen solution, a validator that checks every assignment row against the full rule set, 35 tests, a CLI that prices new product launches against the catalog, and a 25 page business report. Verifying the result does not require reoptimizing.
+**Outcome:** **55 box types instead of 204**, with **$21.2M in estimated annual savings (10.1%)** and a **certified 0.018% optimality gap**. Received special recognition in the AlixPartners challenge. The repository includes a solution validator, tests, and the full business report.
 
-### Retiming a city corridor's traffic lights from real camera footage
-`SUMO` `simulated annealing` `YOLOv8` `OpenCV` · Dec 2024 to Sep 2025
+### [Oil & Gas · Production forecasting platform](https://github.com/tommycass/oil-production-forecasting-platform)
+**Time-series ML · Data engineering · MLOps · FastAPI** | Collaborative engineering project, 2026
 
-I processed footage of Av. Savio in San Nicolás de los Arroyos with YOLOv8 to extract vehicle counts and turn ratios, rebuilt the corridor in SUMO, and ran simulated annealing over the phase and offset space. The fitness function combines flow, queue length and stops, and is evaluated over separate time windows so the solution holds at rush hour and off peak rather than optimizing for an average that never occurs.
+Co-developed an end-to-end platform for monthly, **well-level oil and gas production forecasting** using real Argentine energy data. Built around a Medallion data architecture with **Dagster, dbt, PostgreSQL, an offline feature store, MLflow model registry, automated retraining, and REST inference**. The ML pipeline uses time-aware validation, leakage-safe features, model selection, and recursive forecasts up to 12 months ahead.
 
-The resulting configuration raised average speed by 22% and cut stops by 35% in simulation. The municipality adopted it, and it was covered by Diario El Norte and Ramallo Informa. Presented at SCIAA 2025.
+**Outcome:** the selected Random Forest models outperformed persistence baselines on held-out data, achieving **test R² = 0.868 for oil** and **0.850 for gas**. The platform also includes BI, data quality checks, containerization, CI/CD, and monitoring.
 
-### Counting animals in drone footage with RGB and thermal fusion
-`YOLOv8` `YOLOv11` `PyTorch` · Oct 2025 to Dec 2025
+### [Koopman-JEPA · Learning latent temporal dynamics](https://github.com/micmich05/koopman-jepa)
+**Representation learning · Dynamical systems · Koopman operators · PyTorch** | Exploratory research, 2026
 
-Detection and counting of wildlife from drone imagery, aimed at the cases where a single sensor fails: low light, camouflage, partial occlusion by canopy. I fused RGB and thermal streams into a YOLOv8 detector so the model has a signal to fall back on when either channel degrades.
+Investigating whether a temporal joint-embedding predictive architecture can learn **nontrivial linear dynamics in latent space**, rather than only invariant representations. Controlled synthetic experiments keep observation distributions fixed while changing the underlying temporal transition law.
 
-The original dataset had systematic missing annotations, which inflates false positive counts and makes evaluation meaningless. I relabeled it with YOLOv11 assistance and manual review before measuring anything.
+**Finding so far:** the learned predictor distinguished static, cyclic, and independent dynamics across **10/10 seeds per condition** and recovered their characteristic active spectra. The repository documents assumptions, reproduction steps, results, and limitations; these are controlled experimental findings, **not a general claim of Koopman recovery**.
 
-### Predicting used SUV prices from 18k messy marketplace listings
-`XGBoost` `scikit-learn` `RapidFuzz` `Pandas` · May 2025 to Jul 2025
+### Traffic signal optimization · San Nicolás, Argentina
+**Computer vision · Simulation · Simulated annealing · SUMO · YOLOv8** | Municipality of San Nicolás, 2024–2025
 
-End to end regression pipeline over real Mercado Libre listings. Most of the work sat upstream of the model: regex extraction of specs from titles and descriptions written in free text, fuzzy token matching with RapidFuzz to collapse the long tail of inconsistent model names into canonical ones, currency normalization across ARS and USD listings, and one-hot encoding of categoricals.
+Developed a traffic signal optimization workflow using vehicle counts extracted from real camera footage, a simulated corridor, and multi-objective search over traffic-light phases and offsets.
 
-I trained Ridge, Lasso, Random Forest and XGBoost, tuned with randomized search and 5-fold cross validation. The best model reached R² 0.94 on test data it had never seen.
+**Outcome:** **22% higher average vehicle speed** and **35% fewer stops in simulation**. The project was presented at **SCIAA 2025** and covered by local news outlets.
 
-### Searching deeper in Gomoku under a fixed time budget
-`minimax` `alpha-beta pruning` `MCTS` `Python` · Jul 2024 to Nov 2024
+**Additional projects:** RGB–thermal wildlife detection with YOLO; autonomous TurtleBot4 navigation using SLAM, sensor fusion, A* and Pure Pursuit; used-SUV price prediction from marketplace listings (**test R² = 0.94**).
 
-Game playing agent built on minimax, with the search optimizations that actually move the needle when the clock is the binding constraint: alpha-beta pruning, move ordering, late move reduction, and quiescence search to avoid horizon effects on forced sequences. I also implemented and benchmarked a Monte Carlo tree search agent to compare how each approach degrades as the time limit tightens. Presented at SCIAA 2024.
+---
 
-## Experience
+## Professional experience
 
-### AI Lead, Rappi · since Oct 2025
-- Lead a team of six designing and shipping AI and automation for the Payments vertical across 9 countries, tying technical objectives to operational efficiency and decision making.
-- Define the technical roadmap, prioritize initiatives, and own execution of data and ML projects from scoping through deployment, working across Product, Operations and Analytics.
-- Run hiring for the team: design the technical assessments, interview candidates, and mentor engineers toward autonomy and good practice.
+**AI Lead — Rappi, Payments** · Oct 2025–present  
+Lead a team of six delivering ML systems, AI agents, and automation for payment operations across nine Latin American countries. Own technical prioritization and execution, collaborate with Product and Operations, and support recruiting and mentoring.
 
-### AI Engineer & Consultant, Secretaría de Innovación, Municipality of San Nicolás · since Dec 2024
-- Audited municipal operations to find where AI was actually the right tool, and scoped the projects that were.
-- Built ML models that cut manual data labeling time by over 90%.
-- Consulted on optimization problems using reinforcement learning and search methods, reducing citizen wait times by over 40%.
+**AI Engineer & Consultant — Municipality of San Nicolás** · Dec 2024–present  
+Develop computer vision and optimization solutions for municipal workflows. Delivered ML-assisted labeling that reduced manual work by **over 90%** and advised on optimization initiatives that reduced service wait times by **over 40%**.
 
-### Business Data Analyst, MSD (Merck Sharp & Dohme) · Jan 2025 to Sep 2025
-- Automated data validation pipelines in Pandas, raising operational efficiency by 50%.
-- Built a fuzzy database matching solution in Python with RapidFuzz, replacing manual reconciliation and raising efficiency on those tasks by 75%.
+**Business Data Analyst — MSD (Merck Sharp & Dohme)** · Jan–Sep 2025  
+Automated data validation and fuzzy record-matching workflows using Python, Pandas, and RapidFuzz, improving efficiency in previously manual processes.
 
-## Education
+---
 
-**B.Eng. in Artificial Intelligence Engineering** · Universidad de San Andrés · since Mar 2023 · GPA 9.66/10
+## Education & research interests
 
-Teaching assistant for Algorithms & Data Structures and Systems Dynamics at the School of Engineering: material preparation, exercise sessions and student tutoring.
+**Universidad de San Andrés** — B.Eng. in Artificial Intelligence Engineering (2023–2027) · **GPA 9.66/10**  
+Teaching Assistant, **Algorithms & Data Structures** and **Systems Dynamics**.
 
-Coursework includes LLMs and Transformers, Deep Learning and Neural Networks, VAEs, Computational Algebra, Graph Theory, applied statistics, clustering and tree based models.
+**Vrije Universiteit Amsterdam** — Exchange studies, 2026–2027  
+Coursework in dynamical systems and stochastic processes.
 
-## Recognition
+Current technical interests: **applied mathematics, dynamical systems, representation learning, optimization, and interpretable latent dynamics**.
 
-**Special Recognition, AlixPartners Data Challenge** (2026)
-First participant in the challenge to reach the optimal solution. The resulting catalog represented an estimated USD 21.2M in annual savings, a 10.1% reduction. Code and report above.
+---
 
-**BCG ASPIRE** (2026)
-Selected for Boston Consulting Group's international program for high potential women, admitted through a multi stage selection process.
+## Speaking & scientific presentations
 
-**Mensa Argentina** (2026)
-Admitted after the supervised in person admission exam, the threshold being the top 2% of the population by standardized IQ.
+### Scientific presentations
 
-**Banco Santander Argentina Merit Award** (2025)
-Granted to the 200 highest university GPAs nationwide, across all institutions and fields of study.
+**SCIAA — Scientific Symposium on Artificial Intelligence and Applications** · **2024 & 2025**  
+Selected as a speaker in two editions to present technical projects:
+- **2025 — Traffic signal optimization:** computer vision, SUMO simulation, and simulated annealing for a city traffic corridor, with **22% higher mean speed and 35% fewer stops in simulation**.
+- **2024 — Gomoku game-playing agent:** minimax, alpha-beta pruning, search optimizations, and benchmarking against Monte Carlo Tree Search under time constraints.
 
-**ICPC Latin American Regional Contest** (2024, 2025)
-Qualified twice for the regional finals of the International Collegiate Programming Contest, based on team performance in the Argentine Programming Contest. Competitive programming is where I learned to reason about complexity under a clock, which is the habit I lean on most in production work.
+### Industry talks, webinars & panels
 
-**SCIAA Speaker** (2024, 2025)
-Accepted twice to present research at the Scientific Symposium on Artificial Intelligence and Applications: the Gomoku search agent in 2024, the traffic signal optimizer in 2025.
+- **L’Oréal LATAM — Beauty Tech Month:** invited talk on language models and AI agents, covering how LLMs work, agent architectures, context, tools, and levels of autonomy.
+- **University of Buenos Aires — Y-Hat:** talk on applied AI in Payments.
+- **Data Science Research Perú — Machine Learning Webinar:** practical ML design, from feature engineering and leakage prevention to preprocessing and model selection.
+- **Data Science Research Perú — AI Panel:** AI-first organizations, automation, emerging talent needs, and the future of work.
+- **RedLazo — *dIA a dIA* podcast:** AI agents and practical perspectives on applied AI.
 
-**National Champion & Best Speaker, Parliamentary Debate** (2022)
-Both titles in the same season in the national competitive league, certified by the Argentine Debate Association.
+---
 
-**ITBA Recognition** (2022)
-For an academic essay on AI, Big Data and environmental sustainability, written and presented at the Buenos Aires Institute of Technology.
+## Selected recognition
 
-**ACOBI National Mathematics Champion** (2016, 2017)
-First place nationally in consecutive editions.
+- **AlixPartners Data Challenge (2026)** — Special recognition for the packaging optimization solution, with **$21.2M in estimated annual savings** and a **certified 0.018% optimality gap**.
+- **BCG ASPIRE (2026)** — Selected for BCG's international program for high-potential women.
+- **Mensa Argentina (2026)** — Admitted after passing a supervised, in-person qualifying examination.
+- **Santander Argentina Merit Award (2025)** — Recognized among 200 students with the country's highest university GPAs.
+- **SCIAA Speaker (2024 & 2025)** — Twice selected to present projects at the Scientific Symposium on Artificial Intelligence and Applications.
+- **ICPC Latin American Regional (2024 & 2025)** — Qualified twice through the Argentine Programming Contest.
+- **National Parliamentary Debate (2022)** — National champion and best speaker.
 
-## Stack
+---
 
-**Languages** Python · C · Java · SQL · LaTeX
+## Technical toolkit
 
-**ML** PyTorch · scikit-learn · XGBoost · Pandas · NumPy · SciPy
+**Languages:** Python · C · Java · SQL · LaTeX  
+**ML & scientific computing:** PyTorch · scikit-learn · XGBoost · NumPy · Pandas · SciPy  
+**Optimization & computer vision:** OR-Tools CP-SAT · MILP · simulated annealing · YOLO · OpenCV  
+**Data & deployment:** Dagster · dbt · MLflow · Airflow · FastAPI · Docker · PySpark · CI/CD · PostgreSQL · MongoDB · Neo4j
 
-**Optimization** OR-Tools CP-SAT · MILP · local search · reinforcement learning
+**Languages spoken:** Spanish (native) · English (professional)
 
-**Computer vision** Ultralytics YOLOv8 · YOLOv11 · OpenCV
+---
 
-**Data & infra** PySpark · Airflow · FastAPI · Docker · n8n · CI/CD · MLOps
-
-**Databases** MongoDB · Neo4j
-
-Spanish (native) · English (professional)
+Interested in collaborating on **applied ML, optimization, or research at the intersection of learning and dynamical systems**? [Get in touch](mailto:micolmichanie@gmail.com).
