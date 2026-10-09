@@ -51,7 +51,7 @@ Developed a traffic signal optimization workflow using vehicle counts extracted 
 **AI Lead — Rappi, Payments** · Oct 2025–present  
 Lead a team of six delivering ML systems, AI agents, and automation for payment operations across nine Latin American countries. Own technical prioritization and execution, collaborate with Product and Operations, and support recruiting and mentoring.
 
-**AI Engineer & Consultant — Municipality of San Nicolás** · Dec 2024–present  
+**AI Engineer & Consultant — Municipality of San Nicolás** · Dec 2024–Mar 2026  
 Develop computer vision and optimization solutions for municipal workflows. Delivered ML-assisted labeling that reduced manual work by **over 90%** and advised on optimization initiatives that reduced service wait times by **over 40%**.
 
 **Business Data Analyst — MSD (Merck Sharp & Dohme)** · Jan–Sep 2025  
